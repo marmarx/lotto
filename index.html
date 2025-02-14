@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<title>Random Numbers</title>
+<meta name="author" content="Marco Martins">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2f4550">
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<link rel="stylesheet" href="style.css">
+
+<body lang="pt">
+<div class="row"><div class="container">
+  <h1>Random Numbers Generator</h1>
+  <h2>Specify how many numbers, also the minimum and maximum ranges</h2>
+ <div class="middle">
+  <div class="placeholder">Quantity</div>
+  <div class="placeholder">Minimum</div>
+  <div class="placeholder">Maximum</div>
+ </div>
+ <div class="middle">
+  <input type="number" value="15" id="qte" min="1" onkeyup="set_min(this)">
+  <input type="number" value="1"  id="min" min="0" onkeyup="set_min(this)">
+  <input type="number" value="25" id="max" min="0" onkeyup="set_min(this)">
+ </div>
+ <div class="middle">
+  <button class="button" style="vertical-align:middle" id="myBtn"><span>Randomize </span></button>
+ </div>
+ <div class="middle"><p id="myPar"></p></div>
+ <div class="middle"><p id="consider"></p></div>
+</div></div>
+<script defer type="text/javascript" src="script.js"></script>
+</body>
+</html>

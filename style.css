@@ -1,0 +1,18 @@
+*, *:before, *:after{box-sizing:inherit;font-family:serif}
+body{margin:0;height:100vh}
+.row{display:inline-flex;position:relative;width:100%;height:100%}
+.container{margin:auto;position:relative;float:left;width:80%;max-width:900px;}
+.middle{float:left;width:100%;text-align:center;display:flex}
+h1,h2{text-align:center}
+h2{font-weight:400;margin-bottom:45px}
+p{font-size:1.4em;line-height:1.4em;margin:auto;margin:6% auto 0;padding:2%}
+.button{display:inline-block;border-radius:4px;background-color:#f4511e;border:none;color:#FFFFFF;text-align:center;font-size:28px;padding:20px;width:200px;transition:all 0.5s;cursor:pointer;margin:auto}
+.button span{cursor:pointer;display:inline-block;position:relative;transition:0.5s}
+.button span:after{content:'\00bb';position:absolute;opacity:0;top:0;right:-20px;transition:0.5s}
+.button:hover span{padding-right:25px}
+.button:hover span:after{opacity:1;right:0}
+input{text-align:center;border:0;padding:2%;padding-left:calc(2% + 11px);margin:1% auto 5%;font-size:1.4em;width:20%}
+input:hover,input:focus,input:active{background:#f1f4ff;border:0;outline-width:0}
+.placeholder{width:20%;margin:0 auto;font-size:1.2em}
+input,.placeholder{min-height:0}
+ul{text-align:justify}
